@@ -1,8 +1,8 @@
 <Project>
   <PropertyGroup>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <BaseIntermediateOutputPath>$(ProjectDir)..\build-temp\</BaseIntermediateOutputPath>
     <MSBuildProjectExtensionsPath>$(ProjectDir)..\build-temp\</MSBuildProjectExtensionsPath>
-    <BaseOutputPath>$(ProjectDir)..\build\</BaseOutputPath>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 </Project>
